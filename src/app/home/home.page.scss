@@ -1,0 +1,65 @@
+ion-content {
+  --background: #f5f5f5;
+}
+
+.reminder-card {
+  --background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+ion-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+ion-input, ion-select {
+  --background: #ffffff;
+  --color: #000000;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 12px; /* Add spacing between input fields */
+  font-weight: 400;
+}
+
+.add-reminder-button {
+  --background: #000000;
+  --color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.reminder-list {
+  padding: 0;
+}
+
+ion-item {
+  --background: transparent;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.reminder-icon {
+  margin-right: 10px;
+  font-size: 1.4rem; /* Adjust size of the icon */
+}
+
+ion-label.reminder-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+ion-button {
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+ion-button[color="danger"] {
+  --color: #ff4d4d;
+}

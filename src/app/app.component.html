@@ -1,0 +1,22 @@
+<ion-app>
+  <ion-menu contentId="main-content" type="overlay">
+    <ion-content>
+      <ion-list id="inbox-list">
+        <ion-list-header>Health Reminder</ion-list-header>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item routerDirection="root" routerLink="/home" lines="none" detail="false" routerLinkActive="selected">
+            <ion-icon slot="start" name="add-circle"></ion-icon>
+            <ion-label>Add Reminder</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item routerDirection="root" routerLink="/list" lines="none" detail="false" routerLinkActive="selected">
+            <ion-icon slot="start" name="list"></ion-icon>
+            <ion-label>Reminders List</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+</ion-app>

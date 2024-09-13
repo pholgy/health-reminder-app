@@ -1,0 +1,7 @@
+{
+  "name": "health-reminder-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
